@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active Life Centre | Contact</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!---google fonts for montserrat and lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--hover.css libary-->
+    <link href="css/hover.css" rel="stylesheet" media="all" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <img
+            src="images/active-life-logo.svg"
+            style="max-width: 180px"
+            alt="logo"
+          />
+
+          <!-- Mobile toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Nav links -->
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+              <li><a class="nav-link" href="index.html">Home</a></li>
+              <li>
+                <a class="nav-link" href="memberships.html">Memberships</a>
+              </li>
+              <li><a class="nav-link" href="#">Programs & Classes</a></li>
+              <li>
+                <a class="nav-link active" href="contact.html">Contact us</a>
+              </li>
+              <li><a class="nav-link" href="#">Events & Hours</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- contact info -->
+      <section class="py-5">
+        <div class="container text-center">
+          <h1 class="fw-bold">Contact Us</h1>
+          <p class="lead">
+            Have questions or need assistance? Reach out to our friendly team
+            for info on programs, memberships, or bookings.We're here to help
+            and would love to hear from you!
+          </p>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <h5 class="fw-bold">Visit Us</h5>
+              <p>2100 Iris Street, Ottawa K2C 1E1</p>
+            </div>
+            <div class="col-md-4">
+              <h5 class="fw-bold">Call Us</h5>
+              <p>882-587-3025</p>
+            </div>
+            <div class="col-md-4">
+              <h5 class="fw-bold">Email Us</h5>
+              <p>ALC@gmail.com</p>
+            </div>
+          </div>
+          <p class="mt-3"><strong>Hours:</strong> 6:00 AM – 10:00 PM</p>
+        </div>
+      </section>
+
+      <!-- contact form -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-bold">Reach out</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="your@email.com"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    placeholder="Write your message here..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn btn-info btn-lg w-100 hvr-skew"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- map -->
+      <section class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4 fw-bold">Our Location</h2>
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.054095020406!2d-75.7566!3d45.3522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07bb8b19f4f9%3A0x5d4c5b8fdc28e54a!2sAlgonquin%20College!5e0!3m2!1sen!2sca!4v1670000000000!5m2!1sen!2sca"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Logo + Socials -->
+          <div class="col-12 col-md py-3 text-center text-md-start">
+            <img
+              src="images/active-life-logo.svg"
+              alt="Active Life Centre Logo"
+              style="max-width: 180px"
+            />
+            <div class="py-5">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p><a href="#">Terms and conditions</a></p>
+          </div>
+
+          <!-- Membership -->
+          <div class="col-12 col-md py-3 text-center text-md-start">
+            <h6><a href="memberships.html">MEMBERSHIP</a></h6>
+          </div>
+
+          <!-- Programs & Classes -->
+          <div class="col-12 col-md py-3 text-center text-md-start">
+            <h6>PROGRAMS & CLASSES</h6>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-12 col-md py-3 text-center text-md-start">
+            <h6><a href="contact.html"> CONTACT </a></h6>
+            <p><a href="mailto:ALC@gmail.com">ALC@gmail.com</a></p>
+            <p>882-587-3025</p>
+            <p>2100 Iris Street, Ottawa</p>
+            <p>K2C 1E1</p>
+          </div>
+        </div>
+
+        <!-- Bottom row -->
+        <div class="text-center">
+          <small>&copy; 2025 Active Life Centre | All rights reserved</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
